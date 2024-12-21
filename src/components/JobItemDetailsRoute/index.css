@@ -1,0 +1,131 @@
+.jobItemDetails-main-container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.jobItemDetails-bg-container {
+  padding: 24px;
+  background-color: #121212;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.jobItemDetails-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #272727;
+  background-size: cover;
+  border-radius: 10px;
+  /* margin-top: 15px; */
+  padding: 24px;
+}
+
+.jobItemDetails-company-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .jobItemDetails-company-name {
+    font-size: 20px;
+  }
+}
+.jobItemDetails-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.jobItemDetails-location {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+
+  margin-right: 5px;
+}
+
+.jobItemDetails-description-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: normal;
+}
+.description-website-url-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vist-link {
+  color: #b6c5ff;
+  font-size: 17px;
+  text-decoration: none;
+}
+.jobItemDetails-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+
+  /* margin-right: 5px; */
+}
+.life-at-company-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+
+  /* margin-right: 5px; */
+}
+
+@media screen and (min-width: 768px) {
+  .jobItemDetails-description {
+    font-size: 20px;
+  }
+  .life-at-company-description {
+    width: 70%;
+    font-size: 20px;
+  }
+}
+.share-icon {
+  align-self: flex-end;
+}
+
+.skills-unorderedlist {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+.life-at-company-image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .life-at-company-image {
+    width: 30%;
+  }
+}
+.similarJob_unorderedList {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .similarJob_unorderedList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.margintop {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .lifeatcompany-des-img-container {
+    display: flex;
+    flex-direction: row;
+  }
+}

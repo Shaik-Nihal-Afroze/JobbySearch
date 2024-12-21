@@ -1,0 +1,52 @@
+.similar-company-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+.similarJob-container {
+  /* height: 20%; */
+  width: 100%;
+  background-color: #272727;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 15px;
+
+  padding: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+.similar-description-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .similarJob-container {
+    width: 31%;
+    margin-right: 20px;
+  }
+  .similar-description-title {
+    margin-top: 15px;
+  }
+}
+
+.paddtop {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.similar-main-icon-container {
+  margin-top: 5px;
+}
+
+.similar-logo-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* border: 1px solid red; */
+  height: 20%;
+  margin-bottom: 10px;
+}
